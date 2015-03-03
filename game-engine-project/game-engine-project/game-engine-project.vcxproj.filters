@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\General">
+      <UniqueIdentifier>{207e0f94-b4a6-4026-a154-510cc2c25fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a29786ea-4f90-4f4f-9f2f-7416b837cc0c}</UniqueIdentifier>
+      <Extensions>hlsl;fx</Extensions>
+    </Filter>
+    <Filter Include="Shaders\HLSL">
+      <UniqueIdentifier>{5a41c0e0-243e-474b-8405-263c2ba7c42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\FX">
+      <UniqueIdentifier>{74dd38f2-f56e-4b5e-a093-044349345d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems">
+      <UniqueIdentifier>{75cb1e6b-d252-43e6-afed-3e2500291b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Animation">
+      <UniqueIdentifier>{adf72d12-b777-4cf4-8446-4151ae49cc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\File System">
+      <UniqueIdentifier>{c119a4ee-37b1-4967-9af2-a76eba329681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Memory">
+      <UniqueIdentifier>{0e4c542e-09f9-46a7-b433-72468d2d0ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Memory\memory allocators">
+      <UniqueIdentifier>{ede10672-8607-4bd3-9583-96087070601e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Physics">
+      <UniqueIdentifier>{581e81ba-f888-452e-bac9-06afe15fda72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Graphics">
+      <UniqueIdentifier>{35f67deb-c21a-45b0-af4b-7fce41257c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Input">
+      <UniqueIdentifier>{f5e6b4e7-97b1-4f76-9476-c0603910817f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Network">
+      <UniqueIdentifier>{d65314a1-2171-4a28-a5ea-791744d46d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Game">
+      <UniqueIdentifier>{6175032b-1a4f-4649-b25e-0a605767de99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Assets">
+      <UniqueIdentifier>{c78c4fa6-74d9-4ebf-9bda-ad263adf685d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{6b0f392e-2b74-4b4e-a468-5af285948c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Math">
+      <UniqueIdentifier>{ae15d72a-723b-4700-9b77-426d5774ab19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Timer">
+      <UniqueIdentifier>{00be92a2-31ad-47c1-94b0-a991f24c2e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems">
+      <UniqueIdentifier>{5489b9f4-ed95-4c70-bcea-800987f1be05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Animation">
+      <UniqueIdentifier>{053639c5-142f-40bb-9ccd-66a96c18820f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\File System">
+      <UniqueIdentifier>{93bc5b75-f8cb-4ba0-adcc-5fb1d0278d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Memory">
+      <UniqueIdentifier>{c8dabb65-3c28-4601-8742-231029a8b181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Memory\memory allocators">
+      <UniqueIdentifier>{ce4e77f4-8df1-45a3-aee0-b23b4c803d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Physics">
+      <UniqueIdentifier>{a9ede268-eb50-45b5-b5d3-54ae5dc2c74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Graphics">
+      <UniqueIdentifier>{1fe3bec3-3e82-4723-8c24-003a567cb1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Input">
+      <UniqueIdentifier>{5b179486-902a-4d45-aee3-8f32d20e8691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Network">
+      <UniqueIdentifier>{45dabce3-5069-4b68-9f13-64853b782178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Game">
+      <UniqueIdentifier>{c424ecb3-1256-4c91-a8e9-dacd8e6987bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems\Assets">
+      <UniqueIdentifier>{d9959cf5-49c8-4f59-bca4-61ac1f481479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{1aa86c6d-130a-4943-bf51-4c256a8e8782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Timer">
+      <UniqueIdentifier>{cc1e3474-cd59-434e-9c66-b19e6b74860e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Math">
+      <UniqueIdentifier>{77f106b5-ff51-4aea-b4d4-d94836eff485}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_stack.cpp">
+      <Filter>Source Files\Subsystems\Memory\memory allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="subsystem_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_manager.cpp">
+      <Filter>Source Files\Subsystems\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem_manager.cpp">
+      <Filter>Source Files\Subsystems\File System</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_manager.cpp">
+      <Filter>Source Files\Subsystems\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_manager.cpp">
+      <Filter>Source Files\Subsystems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="render_manager.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="render_util.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game_timer.cpp">
+      <Filter>Source Files\Utilities\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Source Files\Subsystems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>Source Files\Subsystems\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="video_manager.cpp">
+      <Filter>Source Files\Subsystems\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_manager.cpp">
+      <Filter>Source Files\Subsystems\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="math_ex.cpp">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_factory.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepad_manager.cpp">
+      <Filter>Source Files\Subsystems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="effects.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="light_helper.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex.cpp">
+      <Filter>Source Files\Subsystems\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="custom_stack.h">
+      <Filter>Header Files\Subsystems\Memory\memory allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="subsystem_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_manager.h">
+      <Filter>Header Files\Subsystems\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem_manager.h">
+      <Filter>Header Files\Subsystems\File System</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_manager.h">
+      <Filter>Header Files\Subsystems\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_manager.h">
+      <Filter>Header Files\Subsystems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="render_manager.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="render_util.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game_timer.h">
+      <Filter>Header Files\Utilities\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Header Files\Subsystems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>Header Files\Subsystems\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_manager.h">
+      <Filter>Header Files\Subsystems\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="video_manager.h">
+      <Filter>Header Files\Subsystems\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="math_ex.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry_factory.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="gamepad_manager.h">
+      <Filter>Header Files\Subsystems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="effects.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="light_helper.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="editor.rc">
+      <Filter>Resource Files\General</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FX\light_helper.fx">
+      <Filter>Shaders\FX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FX\basic.fx">
+      <Filter>Shaders\FX</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

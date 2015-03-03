@@ -1,0 +1,66 @@
+﻿Build started 2/7/2015 8:36:05 PM.
+     1>Project "E:\jheard901-code\game-engine-project\game-engine-project\game-engine-project.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         fxc compile for debug: E:\jheard901-code\game-engine-project\game-engine-project\FX\basic.fx
+         Microsoft (R) Direct3D Shader Compiler 9.29.952.3111
+         Copyright (C) Microsoft Corporation 2002-2009. All rights reserved.
+         
+         compilation succeeded; see basic.cod
+         compilation succeeded; see E:\jheard901-code\game-engine-project\game-engine-project\FX\basic.fxo
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Windows Kits\8.0\Lib\win8\um\x86" /I"E:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt animation_manager.cpp custom_stack.cpp effects.cpp filesystem_manager.cpp gamepad_manager.cpp game_manager.cpp game_timer.cpp geometry_factory.cpp input_manager.cpp light_helper.cpp main.cpp math_ex.cpp memory_manager.cpp physics_manager.cpp render_manager.cpp render_util.cpp application.cpp subsystem_manager.cpp texture_manager.cpp vertex.cpp video_manager.cpp
+         video_manager.cpp
+         vertex.cpp
+         texture_manager.cpp
+         subsystem_manager.cpp
+         application.cpp
+         render_util.cpp
+         render_manager.cpp
+         physics_manager.cpp
+         memory_manager.cpp
+         math_ex.cpp
+         main.cpp
+         light_helper.cpp
+         input_manager.cpp
+         geometry_factory.cpp
+         game_timer.cpp
+         game_manager.cpp
+         gamepad_manager.cpp
+         filesystem_manager.cpp
+         effects.cpp
+         custom_stack.cpp
+         Generating Code...
+         Compiling...
+         animation_manager.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\editor.res" editor.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\jheard901-code\game-engine-project\Debug\game-engine-project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\jheard901-code\game-engine-project\Debug\game-engine-project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\jheard901-code\game-engine-project\Debug\game-engine-project.lib" /MACHINE:X86 Debug\editor.res
+         Debug\animation_manager.obj
+         Debug\custom_stack.obj
+         Debug\effects.obj
+         Debug\filesystem_manager.obj
+         Debug\gamepad_manager.obj
+         Debug\game_manager.obj
+         Debug\game_timer.obj
+         Debug\geometry_factory.obj
+         Debug\input_manager.obj
+         Debug\light_helper.obj
+         Debug\main.obj
+         Debug\math_ex.obj
+         Debug\memory_manager.obj
+         Debug\physics_manager.obj
+         Debug\render_manager.obj
+         Debug\render_util.obj
+         Debug\application.obj
+         Debug\subsystem_manager.obj
+         Debug\texture_manager.obj
+         Debug\vertex.obj
+         Debug\video_manager.obj
+         game-engine-project.vcxproj -> E:\jheard901-code\game-engine-project\Debug\game-engine-project.exe
+     1>Done Building Project "E:\jheard901-code\game-engine-project\game-engine-project\game-engine-project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.39
